@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import './App.css';
+import Alumno from "./components/Alumno"
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
         <option value={45764.60}>bitcoin</option>
       </select>
       <input onChange={handleTotalChange} value={total} />
+
+<Alumno/>
+
     </div>
   );
 }
